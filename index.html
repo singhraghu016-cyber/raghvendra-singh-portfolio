@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghvendra Singh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Raghvendra Singh home">
+      <span class="brand-mark">RS</span>
+      <span>Raghvendra Singh</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Web Developer Portfolio</p>
+        <h1>Hi, I am Raghvendra Singh.</h1>
+        <p class="hero-copy">
+          I build clean, responsive and user-friendly websites using HTML, CSS and JavaScript.
+          This portfolio is a simple starting point that can grow with my projects, skills and resume.
+        </p>
+
+        <div class="hero-actions" aria-label="Portfolio actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="file:///C:/Users/ASUS/Downloads/Raghvendra%20Singh%20HA%200071%20%20resume.pdf">Open Resume</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Raghvendra Singh profile card">
+        <div class="profile-card">
+          <div class="profile-banner">
+            <div class="avatar">RS</div>
+            <div>
+              <strong>Raghvendra Singh</strong>
+              <span>Frontend Developer</span>
+            </div>
+          </div>
+          <div class="code-window">
+            &lt;developer&gt;<br>
+            &nbsp;&nbsp;<span>skills:</span> HTML, CSS, JavaScript<br>
+            &nbsp;&nbsp;<span>focus:</span> responsive websites<br>
+            &lt;/developer&gt;
+          </div>
+          <div class="profile-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Focused on learning, building and improving.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I am Raghvendra Singh, an aspiring web developer interested in creating websites that are
+          practical, responsive and easy to use. I enjoy turning ideas into working pages and improving
+          each detail step by step.
+        </p>
+        <div class="quick-info">
+          <div>
+            <span>Location</span>
+            <strong>India</strong>
+          </div>
+          <div>
+            <span>Focus</span>
+            <strong>Frontend Development</strong>
+          </div>
+          <div>
+            <span>Tools</span>
+            <strong>HTML, CSS, JavaScript, VS Code</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technologies I work with.</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span>01</span>
+          <h3>HTML</h3>
+          <p>Semantic page structure, clean content sections and accessible markup.</p>
+        </article>
+        <article class="skill-card">
+          <span>02</span>
+          <h3>CSS</h3>
+          <p>Responsive layouts, modern styling, animations and mobile-friendly design.</p>
+        </article>
+        <article class="skill-card">
+          <span>03</span>
+          <h3>JavaScript</h3>
+          <p>Interactive navigation, form feedback and simple dynamic page behavior.</p>
+        </article>
+        <article class="skill-card">
+          <span>04</span>
+          <h3>VS Code</h3>
+          <p>Organized project workflow with formatting, live preview and clean files.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected work and practice builds.</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-topline">
+            <span>Portfolio</span>
+            <a href="#home" aria-label="View portfolio project">View</a>
+          </div>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive portfolio made with basic HTML, CSS and JavaScript to present my profile.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-topline">
+            <span>Practice</span>
+            <a href="#contact" aria-label="Ask about project">Ask</a>
+          </div>
+          <h3>Responsive Landing Page</h3>
+          <p>A clean landing page concept with mobile navigation and strong visual hierarchy.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-topline">
+            <span>JavaScript</span>
+            <a href="#contact" aria-label="Ask about JavaScript project">Ask</a>
+          </div>
+          <h3>Interactive Web Components</h3>
+          <p>Small UI features like menus, theme toggle, counters and form validation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let us build something useful.</h2>
+        <p>
+          Add your phone, email, LinkedIn or GitHub here. The contact form below gives a neat frontend
+          experience and can be connected to a backend later.
+        </p>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="your@email.com" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" placeholder="Write your message" required></textarea>
+        </label>
+        <button class="button primary" type="submit">Send Message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Raghvendra Singh. All rights reserved.</p>
+    <a href="#home">Back to top</a>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
