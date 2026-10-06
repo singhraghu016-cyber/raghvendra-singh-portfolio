@@ -385,6 +385,27 @@
       font-weight: 800;
     }
 
+    .project-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .project-links a {
+      color: var(--accent-dark);
+      font-size: 0.85rem;
+      font-weight: 800;
+      padding: 6px 10px;
+      background: rgba(18, 111, 121, 0.08);
+      border-radius: 6px;
+      transition: background 180ms ease;
+    }
+
+    .project-links a:hover {
+      background: rgba(18, 111, 121, 0.18);
+    }
+
     .contact-section {
       display: grid;
       grid-template-columns: minmax(0, 0.9fr) minmax(280px, 480px);
